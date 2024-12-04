@@ -16,4 +16,21 @@ Content-Type: application/json
 GET {{BookStoreApi_BaseUrl}}/api/v1/books
 
 ###
-GET {{BookStoreApi_BaseUrl}}/api/v1/books/0193906c-47c3-74d4-8034-51dc8e7654b
+GET {{BookStoreApi_BaseUrl}}/api/v1/books/0193906c-47c3-74d4-8034-51dc8e7654b3
+
+###
+PUT {{BookStoreApi_BaseUrl}}/api/v1/books/0193906c-47c3-74d4-8034-51dc8e7654b3
+Content-Type: application/json
+
+{
+  "title": "Rat Rat",
+  "author": "Elisha Onyando",
+  "description": "All about clever cats",
+  "category": "Comics",
+  "language": "Atwara",
+  "totalPages": 12
+}
+
+###
+DELETE {{BookStoreApi_BaseUrl}}/api/v1/books/0193906c-47c3-74d4-8034-51dc8e7654b3
+
